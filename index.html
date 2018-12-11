@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+	<title>ui-box</title>
+	<link rel="stylesheet" href="ui-box.css">
+	<style type="text/css">
+		.container {
+			margin: 0 auto;
+			width: 960px;
+		}
+		.box {
+			margin: 20px auto;
+		}
+		.green {
+			background-color: green;
+		}
+		.blue {
+			background-color: blue;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="box">
+			<h3>平均分配</h3>
+			<div class="ub">
+				<div class="ub-f1 green">1</div>
+				<div class="ub-f1 blue">2</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>剩余分配</h3>
+			<div class="ub">
+				<div class="green">1</div>
+				<div class="ub-f1 blue">2</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>上下排列</h3>
+			<div class="ub ub-ver">
+				<div class="green">1</div>
+				<div class="blue">2</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>左右对齐</h3>
+			<div class="ub ub-pj">
+				<div class="green">1</div>
+				<div class="blue">2</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="tx-c">居中</h3>
+			<div class="ub ub-pc">
+				<div class="green">1</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3 class="tx-r">居右</h3>
+			<div class="ub ub-pe">
+				<div class="green">1</div>
+			</div>
+		</div>
+		
+		<div class="box">
+			<h3>垂直居中</h3>
+			<div class="ub ub-f1" style="height: 50px; width: 200px;">
+				<div class="ub ub-ac green uf">1</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<h3>位于底边</h3>
+			<div class="ub ub-f1" style="height: 50px; width: 200px;">
+				<div class="ub ub-ae green uf">1</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
